@@ -1,0 +1,160 @@
+.skill-container {
+    text-align: center;
+    height: 100%;
+
+}
+
+.skill-item {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+
+
+.item1 {
+  
+    height: 15vh;
+    width: 100%;
+    background-color: var(--color-bg-variant);
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    padding: 1.6rem;
+}
+.item1:hover{
+background:transparent ;
+border-color: var(--color-primary-variant);
+box-shadow: 0 10px 10px 10px rgba(137, 216, 247, 0.178),0 10px 10px 10px rgba(142, 207, 233, 0.11);
+
+}
+
+.line {
+    color: var(--color-light);
+    font-size: 1.3rem;
+}
+
+
+
+.line::after,
+.line::before {
+    content: '---';
+    margin: 1rem;
+    color: var(--color-primary);
+}
+
+.box1 {
+    border-radius: 50px;
+    height: 10px;
+    width: 40vw;
+    background: var(--color-white);
+    margin-top: 1rem;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.a {
+    width: 80%;
+    height: 10px;
+    background: var(--color-green);
+    border-radius: 50px;
+    animation: css 5s infinite ease-in-out;
+}
+
+.a1 {
+    width: 80%;
+    height: 10px;
+    background: var(--color-green);
+    border-radius: 50px;
+    animation: css 5s infinite ease-in-out;
+
+}
+
+.a2 {
+    width: 60%;
+    height: 10px;
+    background: var(--color-green);
+    border-radius: 50px;
+    animation: css1 5s infinite ease-in-out;
+}
+
+.a3 {
+    animation: css2 5s infinite ease-in-out;
+    width: 40%;
+    height: 10px;
+    background: var(--color-green);
+    border-radius: 50px;
+}
+
+.a4 {
+    animation: css2 5s infinite ease-in-out;
+    width: 40%;
+    height: 10px;
+    background: var(--color-green);
+    border-radius: 50px;
+}
+
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+} 
+
+@keyframes css1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+} 
+
+@keyframes css2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+} 
+
+
+
+
+
+
+
+
+
+/* 
+span{
+    border: 1px solid white;
+    height: 10vh;
+    width: 12vw;
+    padding: 0.4rem;
+    color: var(--color-white);
+    border-radius: 50%;
+    position: relative;
+   left: 250px;
+   bottom: 7px;
+} */ 
+
+
+
+
+
+@media screen and ( max-width:600px) {
+    .item1{
+        height: 10vh;
+        padding: 0 2rem;
+    }
+    .box1{
+        width: 70vw;
+    }   
+       
+    
+}
