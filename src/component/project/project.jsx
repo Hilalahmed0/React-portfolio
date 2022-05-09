@@ -3,6 +3,7 @@ import './project.css'
 import IM1 from '../../assets/ims.jpg'
 import IM2 from '../../assets/ims2.jpg'
 import IM3 from '../../assets/ims3.jpg'
+// import {FaTwitterSquare} from 'react-icons/fa'
 
 
 
@@ -52,7 +53,7 @@ const project = () => {
                 <img src={image} alt={title} />
               </div>
               <h3> {title} </h3>
-              <a href={link} className='btn' target='_blank' rel="noopener noreferrer"><FaTwitterSquare/></a>
+              <a href={link} className='btn' target='_blank' rel="noopener noreferrer">{name}</a>
  
              </article>
             )
