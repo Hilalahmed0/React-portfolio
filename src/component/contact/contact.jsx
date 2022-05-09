@@ -37,19 +37,19 @@ const Contact = () => {
             <MdOutlineEmail className='option-icon' />
             <h4>Email</h4>
             <h5>hilal8523@gmail.com</h5>
-            <a href="mailto:hilal8523@gmail.com" target='_blank'>Send Message</a>
+            <a href="mailto:hilal8523@gmail.com" target="_blank" rel="noopener noreferrer" >Send Message</a>
           </article>
           <article  className='option'>
             <IoLogoWhatsapp className='option-icon' />
             <h4>Whatsapp</h4>
             <h5>8105468103</h5>
-            <a href="https://api.whatsapp.com/send?phone=+918105468103" target='_blank'>Send Message</a>
+            <a href="https://api.whatsapp.com/send?phone=+918105468103" target='_blank' rel="noopener noreferrer">Send Message</a>
           </article>
           <article  className='option'>
             <IoLogoInstagram className='option-icon' />
             <h4>Instagram</h4>
             <h5>hilal8523@gmail.com</h5>
-            <a href="mailto:hilal8523@gmail.com" target='_blank'>Send Message</a>
+            <a href="mailto:hilal8523@gmail.com" target='_blank'rel="noopener noreferrer">Send Message</a>
           </article>
         </div>
         <form ref={form} onSubmit = {sendEmail} >

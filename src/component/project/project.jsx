@@ -43,9 +43,7 @@ const project = () => {
     <section id="project">
       <h5>My recent Assignment</h5>
       <h2>Projects</h2>
-      <div className="container project-container"
-      
-      >
+      <div className="container project-container" >
         {
           Menu.map(({id, name, image, title, link}) =>{
             return(
@@ -54,9 +52,9 @@ const project = () => {
                 <img src={image} alt={title} />
               </div>
               <h3> {title} </h3>
-              <a href={link} className='btn'target= '_blank' >{name}</a>
-            </article>
-             
+              <a href={link} className='btn' target='_blank' rel="noopener noreferrer"><FaTwitterSquare/></a>
+ 
+             </article>
             )
           })
         }

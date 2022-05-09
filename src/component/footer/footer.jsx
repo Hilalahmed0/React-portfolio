@@ -9,9 +9,9 @@ const footer = () => {
     
     <section id="footer">
     <div className="container footer-container">
-    <a href="#"className='logo'>PORTFOLIO</a>
+    <a href="header"className='logo'>PORTFOLIO</a>
       <ul className='links'>
-      <li><a href="#">Home</a></li>
+      <li><a href="header">Home</a></li>
       <li><a href="#skill">Skill</a></li>
       <li><a href="#project">Project</a></li>
       <li><a href="#about">About</a></li>
@@ -19,9 +19,9 @@ const footer = () => {
      
       </ul>
       <div className="footer-social">
-        <a href="https://facebook.com"target="_blank"><ImFacebook2/></a>
-        <a href="https://instagram.com/_.hilal_ahmed._?igshid=YTM0ZjI4ZDI="target="_blank"><BsInstagram/></a>
-        <a href="https://twitter.com"target="_blank"><FaTwitterSquare/></a>
+        <a href="https://facebook.com"target='_blank' rel="noopener noreferrer"><ImFacebook2/></a>
+        <a href="https://instagram.com/_.hilal_ahmed._?igshid=YTM0ZjI4ZDI="target='_blank' rel="noopener noreferrer"><BsInstagram/></a>
+        <a href="https://twitter.com"target='_blank' rel="noopener noreferrer"><FaTwitterSquare/></a>
       </div>
       
       <div className="copy-right">
